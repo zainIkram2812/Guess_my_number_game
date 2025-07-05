@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=VT323&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #1a1a2e;
+  color: white;
+  font-family: VT323;
+}
+
+main {
+  width: 90%;
+  display: flex;
+  font-size: 1.67rem;
+  justify-content: space-between;
+  padding: 50px 30px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+main .play-game {
+  padding: 25px 40px;
+  font-size: inherit;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+  font-family: inherit;
+  color: #f4a261;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+main .play-game:hover {
+  background-color: #f4a261;
+  transform: translateY(-5px);
+  color: white;
+}
+.guess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guess h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.question-mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question-mark .secret-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  font-size: 5rem;
+  border: 2px solid rgb(106, 103, 103);
+  background-color: white;
+  color: #1a1a2e;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.left-right-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.left .number {
+  text-align: center;
+  width: 120px;
+  height: 100px;
+  font-size: 60px;
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #1a1a2e;
+}
+.left .check {
+  padding: 10px 30px;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 2rem;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #ec6445f4;
+  color: #fefeff;
+  transition: 0.3s ease;
+}
+
+.left .check:hover {
+  background-color: #f4a261;
+  color: #1a1a2e;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.message {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.text {
+  font-size: 2rem;
+}
+.again {
+  padding: 22px 40px;
+  font-size: 1.67rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 550;
+  font-family: inherit;
+  color: #f4a261;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.again:hover {
+  background-color: #f4a261;
+  color: #fefdff;
+}
