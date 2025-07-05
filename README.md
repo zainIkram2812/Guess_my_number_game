@@ -1,6 +1,6 @@
 <h1>Guess My Number Game </h1>
-Author: Zain Ikram
-Title: Guess my Number Game
+Author: Zain Ikram <br>
+Title: Guess my Number Game  <br>
 Date: 5/7/2025
 <h2>languages</h1>
 <p>
